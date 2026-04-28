@@ -1,0 +1,14 @@
+Reference,Qty,Value,Datasheet
+Potentiometer,1,10k,
+BZ1,1,Buzzer,
+C1,1,0.1uF,
+D1,1,1N4148,
+D2,1,LED,
+SCR,1,BT169D,https://media.digikey.com/pdf/Data%20Sheets/NXP%20PDFs/BT169_Series.pdf
+R1,1,5.1k,
+"R2,R4,R6",3,1k,
+R3,1,1.5M,
+R5,1,4.7k,
+SW2,1,SW_Push_Open,
+MQ-4B,1,MQ-4b,https://www.winsen-sensor.com/d/files/semiconductor/mq-4b.pdf
+Comparator,1,LM393,http://www.ti.com/lit/ds/symlink/lm393.pdf
