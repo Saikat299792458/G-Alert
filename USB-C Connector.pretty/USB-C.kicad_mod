@@ -1,0 +1,127 @@
+(footprint "USB-C"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.13 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cf4620fc-6c2c-4721-92f6-50ace266d5e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "USB-C"
+		(at 0 0.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2fec46d6-2948-4c56-a3db-b5a0d3b40949")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "558c1a15-c858-4577-84da-323a9d1e2703")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93b79681-8c21-4ab4-8fae-a4fd057f9212")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -4.475 -2.35)
+		(end 4.475 4.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "15d392eb-de42-4ecf-b256-4b42c9d4c53f")
+	)
+	(fp_text user "+"
+		(at 2.53 3.88 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e05f1a0e-38b0-4e01-8dde-7447c1f9a0dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.04 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1c6ed522-c378-4c47-b379-508c28174483")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -4.175 0 270)
+		(size 2 1.2)
+		(drill oval 1.2 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7bf69719-2869-4b0b-88cd-4ef5fd1ad646")
+	)
+	(pad "2" thru_hole oval
+		(at 4.175 0 270)
+		(size 2 1.2)
+		(drill oval 1.2 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ff6f559c-f811-49cd-b05f-a4a69b27cfe8")
+	)
+	(pad "3" thru_hole oval
+		(at -1.8 4.08 270)
+		(size 1.2 2)
+		(drill oval 0.6 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d31d807-97cc-44aa-a843-166aaf7ce16b")
+	)
+	(pad "4" thru_hole oval
+		(at 1.8 4.08 270)
+		(size 1.2 2)
+		(drill oval 0.6 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "02de6afa-8d06-410a-937a-9649e9cce0a8")
+	)
+	(embedded_fonts no)
+)
