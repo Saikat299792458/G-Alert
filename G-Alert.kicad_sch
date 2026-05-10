@@ -5,7 +5,8 @@
 	(uuid "beba3f29-a83f-4dd4-9ded-14115b835ec8")
 	(paper "A4")
 	(title_block
-		(title "G-Alert")
+		(title "G-Alert Schematics")
+		(company "Bivob.BD")
 	)
 	(lib_symbols
 		(symbol "Comparator:LM393"
