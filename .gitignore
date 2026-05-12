@@ -1,0 +1,5 @@
+# Ignore KiCad backup folder
+G-Alert-backups/
+
+# Ignore VS Code local history folder
+.history/
